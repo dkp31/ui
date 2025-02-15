@@ -1,0 +1,36 @@
+# Ignore node modules and lock files
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore build tools and configurations
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# Ignore tests and documentation
+test/
+tests/
+__tests__/
+coverage/
+docs/
+
+# Ignore local environment files
+.env
+.env.local
+*.local
+
+# Ignore build artifacts if not needed
+dist/  # (If your package uses `src/` for publishing, ignore `dist/`)
+build/
+
+# Ignore TypeScript files (if compiled output is included)
+src/   # (Ignore if you publish only `dist/`)
+tsconfig.json
+tsconfig.*.json
+
+# Ignore Storybook files (if packaging a UI library)
+storybook-static/
+.storybook/
