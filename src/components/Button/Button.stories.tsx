@@ -8,13 +8,12 @@ export default {
   parameters: {},
   tags: ["autodocs"],
   argTypes: {
-    varient: {
-      options: ["primary", "secondary", "tertiary"],
+    variant: {
+      options: ["primary", "secondary", "success","warning","danger","outline-primary","outline-secondary","outline-success","outline-warning","outline-danger"],
       control: "radio",
     },
-    backgroundColor: { control: "color" },
     size: {
-      options: ["small", "medium", "large"],
+      options: ["sm", "md", "lg"],
       control: "radio",
       inline: true
     },
